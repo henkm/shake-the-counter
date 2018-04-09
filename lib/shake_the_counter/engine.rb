@@ -5,7 +5,7 @@ module ShakeTheCounter
   #
   # @example default
   #   # /config/environments/development.rb
-  # config.prioticket.api_key  = "12343465sdfgsadr324"
+  # config.shake_the_counter.environment  = "test"
   #
   class Engine < Rails::Engine
     config.shake_the_counter = ShakeTheCounter::Config

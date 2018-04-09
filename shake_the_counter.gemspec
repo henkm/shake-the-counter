@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "shake_the_counter/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "shake-the-counter"
+  spec.name          = "shake_the_counter"
   spec.version       = ShakeTheCounter::VERSION
   spec.authors       = ["Henk Meijer"]
   spec.email         = ["meijerhenk@gmail.com"]

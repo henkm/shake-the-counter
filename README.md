@@ -1,7 +1,7 @@
 # ShakeTheCounter
-[![Gem Version](https://badge.fury.io/rb/shake-the-counter.svg)](https://badge.fury.io/rb/shake-the-counter)
-[![Dependency Status](https://gemnasium.com/henkm/shake-the-counter.svg)](https://gemnasium.com/henkm/shake-the-counter)
-[![Code Climate](https://codeclimate.com/github/henkm/shake-the-counter/badges/gpa.svg)](https://codeclimate.com/github/henkm/shake-the-counter)
+[![Gem Version](https://badge.fury.io/rb/shake_the_counter.svg)](https://badge.fury.io/rb/shake_the_counter)
+[![Dependency Status](https://gemnasium.com/henkm/shake_the_counter.svg)](https://gemnasium.com/henkm/shake_the_counter)
+[![Code Climate](https://codeclimate.com/github/henkm/shake_the_counter/badges/gpa.svg)](https://codeclimate.com/github/henkm/shake_the_counter)
 
 
 This gem works as a simple Ruby wrapper for the Shake The Counter API. At this point, only a limited number of options is implemented. To be more precise: only enough functionality is implemented to:
@@ -20,7 +20,7 @@ Instead of working with JSON, you work with Ruby Classes and intuitive methods.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'shake-the-counter'
+gem 'shake_the_counter'
 ```
 
 And then execute:
@@ -29,7 +29,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install shake-the-counter
+    $ gem install shake_the_counter
 
 ## Original documentation
 This gem is based on V1 of the API according to the documentation found here: [https://ticketstest.ticketcounter.nl/swagger/ui/index](https://ticketstest.ticketcounter.nl/swagger/ui/index).
