@@ -1,7 +1,7 @@
 # ShakeTheCounter
 [![Gem Version](https://badge.fury.io/rb/shake_the_counter.svg)](https://badge.fury.io/rb/shake_the_counter)
-[![Dependency Status](https://gemnasium.com/henkm/shake_the_counter.svg)](https://gemnasium.com/henkm/shake_the_counter)
-[![Code Climate](https://codeclimate.com/github/henkm/shake_the_counter/badges/gpa.svg)](https://codeclimate.com/github/henkm/shake_the_counter)
+[![Dependency Status](https://gemnasium.com/henkm/shake-the-counter.svg)](https://gemnasium.com/henkm/shake-the-counter)
+[![Code Climate](https://codeclimate.com/github/henkm/shake-the-counter/badges/gpa.svg)](https://codeclimate.com/github/henkm/shake-the-counter)
 
 
 This gem works as a simple Ruby wrapper for the Shake The Counter API. At this point, only a limited number of options is implemented. To be more precise: only enough functionality is implemented to:
