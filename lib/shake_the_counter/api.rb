@@ -38,6 +38,8 @@ module ShakeTheCounter
     # @return OpenStruct object with nested methods.
     def self.call(path, http_method: :get, body: {}, header: {})
       values = body
+      header[:accept] = "application/json" 
+
       unless header[:content_type]
         if body && body != {}
           header[:content_type] = "application/json" 
@@ -52,7 +54,7 @@ module ShakeTheCounter
           puts "Calling #{http_method.upcase} to #{url(path)}"
           puts "Header: #{header.to_json}"
           puts "Body:"
-          puts values.to_json
+          puts body
         end
         if http_method == :post
           response = RestClient.post url(path), values, header

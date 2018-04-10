@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    shake-the-counter (0.1.0)
+    shake_the_counter (0.1.3)
       json
       rest-client
 
@@ -47,7 +47,7 @@ DEPENDENCIES
   bundler (~> 1.16)
   rake (~> 10.0)
   rspec (~> 3.0)
-  shake-the-counter!
+  shake_the_counter!
 
 BUNDLED WITH
    1.16.0
