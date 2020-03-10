@@ -24,8 +24,8 @@ module ShakeTheCounter
       self.key = args["PriceTypeKey"]
       self.price_key = args["PriceKey"]
       self.name = args["PriceTypeName"]
-      self.ticket_valid_from = DateTime.parse(args["TicketValidFrom"])
-      self.ticket_valid_to = DateTime.parse(args["TicketValidTo"])
+      self.ticket_valid_from = DateTime.parse(args["TicketValidFrom"]) if args["TicketValidFrom"]
+      self.ticket_valid_to = DateTime.parse(args["TicketValidTo"]) if args["TicketValidTo"]
       self.phone_number_required = args["PhoneNumberRequired"]
       self.full_address_required = args["FullAddressRequired"]
       self.price = args["Price"].to_f

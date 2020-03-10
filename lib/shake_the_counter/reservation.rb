@@ -44,7 +44,13 @@ module ShakeTheCounter
     end
 
 
-
+    # 
+    # Cancels the current reservation
+    # 
+    def cancel
+      # POST /api/v1/reservation/{reservationKey}/cancel/{languageCode}
+      # 400 Bad Request {"Message":"Invalid TicketService Client","ErrorCode":13,"ExceptionMessage":"ErrorCode: 13 - Invalid TicketService Client - ValidateContactInfoValues"}
+    end
 
   end
 end

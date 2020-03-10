@@ -78,7 +78,7 @@ RSpec.describe ShakeTheCounter::Client do
           end
         end
 
-        describe "#make_reservation" do
+        describe "#make_reservation", focus: true do
           before(:all) do
             @section = @sections.first
             @price_types = @section.price_types
@@ -86,6 +86,9 @@ RSpec.describe ShakeTheCounter::Client do
               PriceKey: @price_types.first.price_key,
               NrOfSeats: 2
             }]
+            puts "Client: #{@client.inspect}"
+            puts "---------------------------------------"
+            puts @price_types.first.inspect
             @price = @price_types.first.price
             @reservation = @section.make_reservation(affiliate: 'test', price_type_list: price_type_list, first_name: 'Joe', last_name: 'Sixpack', email: 'jack@example.com')
           end

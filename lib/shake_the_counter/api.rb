@@ -65,7 +65,7 @@ module ShakeTheCounter
         raise ShakeTheCounterError.new "#{e} #{e.response}"
       end
       if ShakeTheCounter::Config.verbose
-        puts "Result:\n#{response.inspect}"
+        puts "Result:\n#{response.inspect.to_s}"
       end
       if response.body != ''
         object =  JSON.parse(response.body)
