@@ -1,4 +1,4 @@
-RSpec.describe ShakeTheCounter::Authentication do
+RSpec.describe ShakeTheCounter::Authentication, focus: true do
   
   xdescribe ".get_access_token" do
     before(:all) do

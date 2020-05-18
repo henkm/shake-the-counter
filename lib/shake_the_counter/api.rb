@@ -10,9 +10,14 @@ module ShakeTheCounter
     # @return [type] [description]
     def self.endpoint
       if ShakeTheCounter::Config.environment.to_s == "test"
-        "https://apitest.shakethecounter.com"
+        # "https://apitest.shakethecounter.com"
+        "https://apitest.ticketcounter.nl/swagger"
+      elsif ShakeTheCounter::Config.environment.to_s == "staging"
+        # "https://apitest.shakethecounter.com"
+        "https://apiacpt.ticketcounter.nl/swagger"
       else
-        "https://api.shakethecounter.com"
+        # "https://apitest.shakethecounter.com"
+        "https://api.ticketcounter.nl/swagger"
       end
     end
 

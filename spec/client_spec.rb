@@ -30,7 +30,7 @@ RSpec.describe ShakeTheCounter::Client do
     end
   end
 
-  describe "#events", focus: true do
+  describe "#events" do
     
 
     before(:all) do 
@@ -78,7 +78,7 @@ RSpec.describe ShakeTheCounter::Client do
           end
         end
 
-        describe "#make_reservation", focus: true do
+        describe "#make_reservation" do
           before(:all) do
             @section = @sections.first
             @price_types = @section.price_types
